@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1200">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="styleP.css">
+
+	<title>DreamTravel</title>
+</head>
+<body>
+
+<div class="container">
+   <div class="item">
+   <div class="img_1"><img src="./img/s11.png"></div>   
+   
+ </div>
+	<div class="item_1">
+    <span><a href="#">DREAM<font color="#9BD100">TRAVEL</font></a></span>
+
+   </div>
+	<div class="item_11"><a href="#">Country</a></div>
+	<div class="item_12"><a href="#">Hotels</a></div>
+	<div class="item_14"><a href="#">City tours</a></div>
+	<div class="item_15"><a href="#">Extras</a></div>
+	<div class="item_16"><a href="#">Sales Offices</a></div>
+	<div class="item_17"><a href="#"><i class="fa-solid fa-heart"></i></a></div>
+   <div class="item_18"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+</div>
+
+<div class="container_3">
+   <div class="item_3">Package Holidays</div>
+   <div class="item_31">Departure Airport</div>
+   <div class="item_311">Destination</div>
+   <div class="item_312">Departure Date</div>
+   <div class="item_313">Duration</div>
+   <div class="item_314">Guests</div>
+  
+   <div class="item_32">
+      <select name="selectone" id="onlyone">
+      <option value="-1"></option>
+      <option value="0">Paris</option>
+      <option value="1">London</option>
+      <option value="2">Berlin</option>
+      <option value="3">Moscow</option>
+      <option value="4">Madrid</option>
+      <option value="5">Vancuver</option>
+      </select>
+
+
+   </div>
+   <div class="item_321">
+      <select name="selectone" id="onlyone">
+      <option value="-1"></option>
+      <option value="0">Tailand</option>
+      <option value="1">India</option>
+      <option value="2">Greece</option>
+      <option value="3">Italy</option>
+      <option value="4">Canada</option>
+      <option value="5">Maldieves</option>
+      </select>
+   </div>
+
+   <div class="item_322">
+   <label for="start"></label>
+   
+   <input type="date" name="mydate" id="mydate"
+   min="2023-01-01" max="2024-01-01">
+   </div>
+   
+
+<script>
+window.addEventListener('load', 
+ function (e) {
+  var d = new Date();
+  var day = d.getDate(); if (day<10) day='0'+day;
+  var month = d.getMonth() + 1; if (month<10) month='0'+month;
+  var year = d.getFullYear(); 
+  document.getElementById("mydate").value = year+"-"+month+"-"+day;
+ }, false);
+</script>
+
+
+
+<div class="item_323">
+      
+<select name="selectone" id="onlyone">
+      <option value="-1"></option>
+      <option value="0">1 night</option>
+      <option value="1">2 nights</option>
+      <option value="2">3 nights</option>
+      <option value="3">4 nights</option>
+      <option value="4">5 nights</option>
+      <option value="5">6 nights</option>
+      <option value="0">7 night</option>
+      <option value="1">8 nights</option>
+      <option value="2">9 nights</option>
+      <option value="3">10 nights</option>
+      <option value="4">11 nights</option>
+      <option value="5">12 nights</option>
+</select>
+
+
+
+   </div>
+   <div class="item_324">
+<select name="selectone" id="onlyone">
+      <option value="-1"></option>
+      <option value="0">1</option>
+      <option value="1">2</option>
+      <option value="2">3</option>
+      <option value="3">4</option>
+      <option value="4">5</option>
+      
+</select>
+
+
+
+
+   </div>
+   <div class="item_325">
+   <button>SEARCH</button>
+   </div>
+
+</div>
+
+<div class="container_2">
+   <div class="item_2">
+      <div class="img_2"><img src="./img/s41.png"></div>   
+   </div>
+   <div class="item_21">
+   <span> Popular <font color="#9BD100">destinations</font></span>
+   </div>
+</div>
+
+<div class="container_4">
+   <div class="item_4">
+<a href="#">      
+<div class="text_block_1">
+SEYCHELLES <br>
+<font color="#EDFFBA">NEW HOTEL</font><br>
+Blue Dream Island <br>
+<font color="white">from 700$</font><br>
+</div>    
+</a>
+</div>
+
+<div class="item_41">
+<a href="#">      
+<div class="text_block_2">
+BEST HOLIDAY<br>
+<font color="#EDFFBA">in exclusive </font><br>
+places<br>
+</div>    
+</a>
+
+
+
+   </div>
+</div>
+	
+	<div class="container_5">
+
+<div class="item_5">
+<a href="#">      
+<div class="text_block_3">
+WINTER<br> 
+<font color="#EDFFBA">ski adventure</font><br>
+2023
+</div>    
+</a>
+</div>
+
+<div class="item_50">
+<a href="#">      
+<div class="text_block_4">
+WINTER<br> 
+<font color="#EDFFBA">fairy tale</font><br>
+2023
+</div>    
+</a>
+</div>
+
+<div class="item_51">
+<a href="#">      
+<div class="text_block_5">
+WINTER<br> 
+<font color="#EDFFBA">spa pleasure</font><br>
+2023
+</div>    
+</a>
+</div>
+
+   </div>
+
+
+<div class="container_6">
+   
+<div class="item_61">
+<a href="#">      
+<div class="text_block_6">
+Take a dip<br> 
+<font color="#EDFFBA">in concentration <br>
+of beauty <br></font>
+European cities<br>
+</div>    
+</a>
+</div>
+
+<div class="item_62">
+<a href="#">      
+<div class="text_block_61">
+TOUCH<br>
+<font color="#EDFFBA">TO ETERNAL MASTERPIECES<br>
+GREAT MUSEUMS</font><br>
+OF THE WORLD<br>
+</div>    
+</a>
+</div>
+
+</div>
+
+<div class="container_2">
+   <div class="item_2">
+      <div class="img_2"><img src="./img/s41.png"></div>   
+   </div>
+   <div class="item_21">
+   <span> Special<font color="#9BD100"> offers</font></span>
+   </div>
+</div>
+
+
+<div class="container_7">
+   <div class="item_s">
+      SAVE UP TO <font color="#05C9D6">200$</font> <br> 
+      ON HOLIDAYS! <br>
+      <br>
+      <div class="sale_1">USE PROMO CODE<br></div> 
+      <div class="sale_2">AMAZINGTRAVEL<br></div>
+      <br>
+      HOLIDAY DEALS <br>
+      Departing May-June 2023 <br>
+      <button>I TAKE IT!</button>
+  </div>
+
+  <div class="item_s1">
+     SAVE UP TO <font color="#9BD100">300$</font> <br> 
+      ON HOLIDAYS! <br>
+      <br>
+      <div class="sale_3">USE PROMO CODE<br></div> 
+      <div class="sale_4">AMAZINGTRAVEL23<br></div>
+      <br>
+      HOLIDAY DEALS <br>
+      Departing May 2023 <br>
+     <button>I TAKE IT!</button>
+     
+  </div>
+  </div>
+
+
+<div class="news_n container_2">
+   <div class="item_2">
+      <div class="img_2"><img src="./img/s41.png"></div>   
+   </div>
+   <div class="item_21">
+   <span>News<font color="#9BD100"> for travelers</font></span>
+   </div>
+</div>
+
+
+
+<div class="container_news">
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'LN')" id="defaultOpen">last news</button>
+  <button class="tablinks" onclick="openCity(event, 'TI')">travel information</button>
+  <button class="tablinks" onclick="openCity(event, 'VR')">visa rules</button>
+  <button class="tablinks" onclick="openCity(event, 'FN')">flights news</button>
+</div>
+
+<div id="LN" class="tabcontent">
+   <div class="container_8">
+   <div class="N_1">
+   <span><a href="#">New fantastic destinations in Asia</a></span>
+   </div>
+
+
+<div class="N_2">
+      <span>
+      <font color="#008CAB">CARD GIFT</font><br>
+      <br>
+      <br>
+      <font color="#05C9D6">200$</font>
+      </span>
+   </div>
+
+
+
+
+   <div class="N_3">
+      <span>
+      <font color="#008CAB">CARD GIFT</font><br>
+      <br>
+      <br>
+      <font color="#9BD100">300$</font>
+      </span>
+   </div>
+
+</div>
+</div>
+
+<div id="TI" class="tabcontent">
+  <div class="container_8">
+   <div class="N_1_1">
+<h3>LOCAL LAWS AND CUSTOMS IN INDIA <i class="fa-solid fa-scale-balanced"></i></h3>
+<img src="./img/In1.jpeg" width="70%"><br>
+<br>
+There may be very serious penalties for breaking a law which might seem trivial to you, or for doing something which may not be illegal in the UK.
+<p> Hobbies involving cameras and binoculars, like bird-watching or plane spotting, may be misunderstood particularly near military sites, government buildings, airports and railway stations.<br>
+
+<p>Indian family law is very different from UK law and particular caution is needed when, for example, child custody becomes an issue.<br>
+
+<p>The laws governing alcohol vary from state to state. Consumption of alcohol is prohibited in Bihar, Gujarat, Mizoram, Nagaland and the union territory of Lakshadweep. There is a partial ban in some districts in Manipur.<br>
+
+<p>Consumption or possession of alcohol in prohibited states can lead to arrest without bail and charges which carry a sentence of 5 to 10 years. In some states foreign nationals and non-resident Indians are able to buy 30-day alcohol permits. 
+
+<p>Seek advice from your local travel agent/hotel or the authorities to ensure you’re aware of any alcohol prohibition in the state.<br>
+
+
+   </div>
+   
+   <div class="N_2_1">
+<h3>START PLANNING <br>
+YOUR DRIVE NORTH TO ALASKA <i class="fa-solid fa-snowflake"></i></h3>
+
+Are you ready to embark on the Ultimate Road Trip? Driving to Alaska through Canada offers unparalleled scenery, national parks to explore, activities for every level of adventurer, and opportunities to learn about Canada and Alaska’s Indigenous cultures. Nothing satisfies the desire for adventure like hitting the open road, stopping whenever you want to experience new places and take in the views. In Western Canada and Alaska, vast landscapes of mountains, dense forests, braided rivers, glaciers, tundra, and turquoise lakes are home to abundant wildlife including moose, bears, wolves, and bald eagles. It’s not just the scenery and wildlife that makes this trip so special. 
+
+
+
+   </div>
+   
+   <div class="N_3_1">
+<h3>POPULAR FESTIVALS IN ITALY <i class="fa-solid fa-music"></i></h3>
+<ul>
+<li>Arctic Monkeys. I-Days 2023. Milan </li>
+<li>Arctic Monkeys. Rock in Roma 2023. Rome</li>
+<li>Maroon 5. Firenze Rocks Festival 2023</li>
+<li>Slipknot. KNOTFEST Italy 2023</li>
+<li>The Offspring. Slam Dunk Italy 2023</li>
+<li>Paolo Nutini. I-Days 2023</li>
+<li>Major Lazer. Kappa FuturFestival 2023</li>
+<li>Sigur Rós. Roma Summer Fest 2023</li>
+<li>Leonardo-Days 2023</li>
+<li>Kappa FuturFestival 2023</li>
+<li>Roma Summer Fest 2023</li>
+<li>KNOTFEST Italy 2023</li>
+<li>Slam Dunk Italy 2023</li>
+</ul>
+   </div>
+</div>
+</div>
+
+<div id="VR" class="tabcontent">
+  <div class="container_8">
+
+<div class="N_1_2">
+<h3>UAE VISA ON ARRIVAL <i class="fa-regular fa-gem"></i></h3>
+<p>30‑day visit eligibility
+If you are a passport holder of the below country or territory, no advance visa arrangements are required to visit the UAE. Simply disembark your flight at Dubai International and proceed to immigration, where your passport will be stamped with a 30‑day visit visa free of charge.
+
+<p>90‑day visit eligibility
+If you are a passport holder of one of the below countries or territories, your passport will be stamped with a multiple entry 90‑day visit visa that's valid for 6 months from the date of issue, and for a stay of 90 days in total. Citizens of the below European countries are also entitled to apply for a pre‑arranged visit visa if their 90‑day visa on arrival has been fully utilized.
+
+<p>180‑day visit eligibility
+If you hold a Mexican passport you’re eligible for a multiple entry 180‑day visit visa that's valid for 6 months from the date of issue, and for a stay of 180 days in total.
+
+<p>Dubai immigration procedures
+As an added security measure, Immigration Authorities at Dubai International are now conducting random eye screening for visitors to Dubai.
+
+<p>Visitors asked to proceed for eye screening are required to present a hard copy of their visa or a printed version of the visa number confirmation page at the screening counter. If you do not have a copy with you, a charge of AED 30 per copy applies ‑ payable only in AED.
+</div>
+
+<div class="N_2_2">
+<h3>SINGAPORE: VISA AND ENTRY REQUIREMENTS FOR FOREIGNERS <i class="fa-solid fa-tree-city"></i></h3>
+
+All visitors to Singapore must meet the following entry requirements:
+Valid travel document (minimum validity of 6 months at the time of departure)
+<p>Confirmed onward or return tickets (if applicable)
+Entry facilities, including visas, to the next destination;
+Sufficient funds to maintain themselves during their stay in Singapore; and,
+<p>Visa for entry into Singapore (if applicable)
+Yellow Fever Vaccination (if applicable)
+Click here to check Entry Requirements for Foreigners (For Social Visit purposes only)
+<p>Enquiries or feedback to ICA can be submitted using the online feedback form at www.ica.gov.sg/feedbackform.
+To keep updated on travel advisories while you travel, follow @MFAsgConsular on Twitter.
+
+
+
+   </div>
+   
+   </div>
+</div>
+
+<div id="FN" class="tabcontent">
+  <div class="container_8">
+   <div class="N_1_3">
+<img src="./img/a12.jpg">
+<h3> ALTIMETER SETTING CITED IN WIDEROE DASH 8 LOW-APPROACH INQUIRY  <i class="fa-solid fa-plane"></i></h3>
+Norwegian investigators have disclosed that they are probing a low approach involving a Wideroe De Havilland Dash 8-100 at the northern Svolvaer airport last month.
+
+<h3>AZERBAIJAN AIRLINES SIGNALS PLANS TO EXPAND 787 AND A320NEO FLEETS  <i class="fa-solid fa-plane"></i></h3>
+Azerbaijan Airlines is to introduce more Boeing 787s and Airbus A320neos as part of a continuing fleet modernisation.
+
+
+<h3>ITALY SIGNS LETTER OF INTENT WITH LUFTHANSA TO KICK-OFF ITA STAKE TALKS <i class="fa-solid fa-plane"></i></h3>
+Italy’s government has signed a letter of intent with Lufthansa as it opens talks with the carrier over the acquisition of ITA Airways.
+
+
+<h3>KLM TO TAKE A350 FREIGHTERS WHILE AIR FRANCE REINFORCES A350-900 FLEET <i class="fa-solid fa-plane"></i></h3>
+Air France-KLM Group has agreed to order four Airbus A350 freighters which its Martinair division will operate for KLM Cargo. The group will also order another three A350-900s for the Air France fleet.
+
+<h3>AIRBUS CONTINUES RECRUITMENT RAMP-UP TO FEED NEW TECHNOLOGICAL ACTIVITIES <i class="fa-solid fa-plane"></i></h3>
+Airbus is embarking on a recruitment drive to hire another 13,000 personnel this year, matching its effort last year.
+The aerospace company says more than half of the new hires – around 7,000 – are intended to fill newly-created positions, and a third of the total will be made up of recent graduates.
+
+   </div>
+   </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+</div>
+
+
+</div>
+
+
+<div class="container_2">
+   <div class="item_2">
+      <div class="img_2"><img src="./img/s41.png"></div>   
+   </div>
+   <div class="item_21">
+   <span>Holiday<font color="#9BD100"> types</font></span>
+   </div>
+</div>
+
+<div class="container_9">
+   <a href="#"><div class="type_1"><i class="fa-solid fa-ship"></i></div></a>
+   <a href="#"><div class="type_2"><i class="fa-solid fa-plane-departure"></i></div></a>
+   <a href="#"><div class="type_3"><i class="fa-solid fa-umbrella-beach"></i></div></a>
+   <a href="#"><div class="type_4"><i class="fa-solid fa-person-skiing"></i></div></a>
+   <a href="#"><div class="type_5"><i class="fa-solid fa-mountain"></i></div></a>
+   <a href="#"><div class="type_6"><i class="fa-solid fa-cake-candles"></i></div></a>
+   <a href="#"><div class="type_7"><i class="fa-solid fa-person-hiking"></i></div></a>
+   <a href="#"><div class="type_8"><i class="fa-solid fa-landmark"></i></div></a>
+   
+</div>
+
+
+
+<div class="container_10">
+
+<div class="footer_1">
+<h3>Let's go <font color="#9BD100">together</font><br> 
+to a <font color="#05E4F1">wonderful</font> new world!</h3>
+
+Sign up to receive access <br> 
+to exclusive sales & promotions! <br>
+<br>
+
+
+<form method="post" action="Формы.html">
+<label> 
+<input type="text" placeholder="" name="pole_text" size="25" maxlength="20">
+</label>
+<button><i class="fa-solid fa-envelope"></i></button>
+</form>
+
+
+
+</div>
+<div class="footer_2">
+<h3>Costumer <font color="#9BD100">service</font></h3>
+
+<a href="#">Privacy Notice</a><br> 
+<a href="#">Terms & conditions</a><br> 
+<a href="#">Ways to Pay</a><br> 
+<a href="#">Media Centre</a><br> 
+<a href="#">Travel</a><br> 
+<a href="#">Jobs</a><br> 
+</div>
+
+
+<div class="footer_3">
+<br>
+<img src="./img/s1t.png">
+<span>DREAM<font color="#9BD100">TRAVEL</font></span><br>
+<div class="dm1">DREAM</div>
+
+<a href="#">About us</a><br> 
+<a href="#">Showroom</a><br> 
+<a href="#">Our stores</a><br> 
+<a href="#">Gallery</a><br> 
+<a href="#">Our Team</a><br>
+<i class="fa-brands fa-twitter"></i>
+<i class="fa-brands fa-square-instagram"></i>
+<i class="fa-solid fa-square-phone-flip"></i>
+</div>
+
+
+</body>
+</html>
